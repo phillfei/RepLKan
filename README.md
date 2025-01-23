@@ -30,3 +30,13 @@ Please use pip install -r requirements.txt to install the dependencies.
 <br>[ACDC](https://drive.google.com/file/d/1iuIpjGjefpQlUr7Gz2PQyZ0GVmSTjX9V/view?usp=drive_link)
 <br>[ISIC2018](https://drive.google.com/file/d/1i8WHT_hcaDCEv6WfZ1HFaD9xaXaMZ_-q/view?usp=drive_link)
 <br>[Mosmeddata](https://drive.google.com/file/d/103Y2f_QlvqczlsBQFjfVde3p5uUHz1KB/view?usp=drive_link)
+<br>##Training:
+```python
+python train.py --dataset ACDC
+```
+<br>##Testing:
+```python
+python predict.py --dataset ACDC
+```
+<br>##Acknowledgement:
+We are very grateful for these excellent works [RepLKNet](https://github.com/DingXiaoH/RepLKNet-pytorch), [U-Kan](https://github.com/duttapallabi2907/u-vixlstm), [MAN](https://github.com/icandle/MAN), [DY_smaple](https://github.com/tiny-smart/dysample), [SSRS](https://github.com/sstary/SSRS) and [UNet](https://github.com/milesial/Pytorch-UNet), which have provided the basis for our framework.
